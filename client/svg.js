@@ -18,7 +18,7 @@ window.pencil =
    id="svg3865"
    version="1.1"
    inkscape:version="0.91 r"
-   sodipodi:docname="pencil-left.svg">
+   sodipodi:docname="pencil.svg">
   <defs
      id="defs3867" />
   <sodipodi:namedview
@@ -47,7 +47,7 @@ window.pencil =
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -57,7 +57,7 @@ window.pencil =
      id="layer1">
     <switch
        id="switch3801"
-       transform="matrix(-0.49931966,-0.86641785,0.86641785,-0.49931966,204.51897,832.3851)">
+       transform="matrix(0.49931966,0.86641785,-0.86641785,0.49931966,545.48102,232.33932)">
       <foreignObject
          requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/"
          x="0"
