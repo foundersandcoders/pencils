@@ -76,8 +76,8 @@ function zip (e) {
     document.body.innerHTML +=
       `
       <div class="row ${index + 1}">
-        <img src="./pencil-left.png" class="left" />
-        <img src="./pencil-right.png" class="right" />
+        ${window.pencil}
+        ${window.pencil}
       </div>
       `
   )
