@@ -16,8 +16,9 @@ body {
 }
 
 .row {
-  height: 66px;
+  height: 100%;
   position: relative;
+  margin-bottom: -34px;
 }
 
 .row > svg {
@@ -27,9 +28,11 @@ body {
 /* Left */
 .row > svg:first-child {
   transform: rotate(180deg);
-  position: fixed;
-  right: 50vw;
-  padding-bottom: 2px;
+  position: absolute;
+  top: 22%;
+  left: 0;
+  width: 56%
+  
 }
 
 .row.shift > svg:first-child {
@@ -39,10 +42,18 @@ body {
 /* Right */
 .row > svg:nth-child(2) {
   transform: translate(0, -19px);
-  position: fixed;
-  left: 36vw;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 57%;
 }
 
 .row.shift > svg:nth-child(2) {
   transform: translate(50px, -15px);
+}
+
+@media (min-width: 1230px) {
+  .row > svg:first-child, .row > svg:nth-child(2) {
+    width: 55%;
+  }
 }
