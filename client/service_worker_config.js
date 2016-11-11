@@ -1,6 +1,9 @@
 'use strict'
 
-ServiceWorkerContainer.register('./service_worker.js')
-  .then((ServiceWorkerRegistration) => {
-    console.log(ServiceWorkerRegistration);
-  });
+if (navigator.serviceWorker) {
+  navigator.serviceWorker.register('service-worker.js', {scope: './'})
+  .then( _ => {
+    if (navigator.serviceWorker.controller) console.log('service worker success!')
+  })
+  .catch( console.log )
+}
