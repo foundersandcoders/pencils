@@ -1,5 +1,5 @@
 window.pencil =
-`<svg height="75px" width="715px">
+`<svg>
   <defs id="defs3">
     <linearGradient id="linearGradient1662">
       <stop id="stop1663" offset="0.0000000" style="stop-color:#000000;stop-opacity:0.0000000;"/>

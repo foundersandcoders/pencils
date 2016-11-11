@@ -12,9 +12,6 @@ body {
   overflow: hidden;
 }
 
-.pencils {
-}
-
 .row {
   height: 100%;
   position: relative;
@@ -22,17 +19,14 @@ body {
 }
 
 .row > svg {
-  transition-duration: 1s;
+  transition-duration: 400ms;
+  position: fixed;
 }
 
 /* Left */
 .row > svg:first-child {
   transform: rotate(180deg);
-  position: absolute;
-  top: 22%;
-  left: 0;
-  width: 56%
-  
+  left: 0px;
 }
 
 .row.shift > svg:first-child {
@@ -42,18 +36,10 @@ body {
 /* Right */
 .row > svg:nth-child(2) {
   transform: translate(0, -19px);
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 57%;
+  left: 175px;
+  margin-top: 52px;
 }
 
 .row.shift > svg:nth-child(2) {
   transform: translate(50px, -15px);
-}
-
-@media (min-width: 1230px) {
-  .row > svg:first-child, .row > svg:nth-child(2) {
-    width: 55%;
-  }
 }
